@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.env
+*.venv
+*.DS_Store
+
+# Docker
+*.log
+*.tmp
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.backup
+*.lock.hcl
+
+# Kubernetes Config
+kubeconfig-*.yaml
+
+# IDE or Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
